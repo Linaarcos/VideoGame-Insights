@@ -1,17 +1,29 @@
-Proyecto Integrado – Análisis de Videojuegos
+# 🎮 Análisis Predictivo de Mercado: Industria de Videojuegos (Tienda Ice)
 
-Este proyecto consiste en un estudio de caso integral de análisis de datos aplicado a la industria de videojuegos. El objetivo principal es identificar patrones de éxito en los videojuegos mediante la exploración de datos históricos de ventas, reseñas de usuarios y expertos, géneros y plataformas.
+## 📝 Descripción del Proyecto
+Este proyecto es un estudio analítico integral realizado para la tienda online **Ice**, que comercializa videojuegos a nivel mundial. El objetivo principal es identificar patrones que determinen el éxito de un videojuego para optimizar la planificación de campañas publicitarias de cara al año 2017.
 
-Se trabajó con un dataset que abarca información hasta 2016, incluyendo ventas por región (Norteamérica, Europa, Japón y otras), puntuaciones de críticos y usuarios, y clasificaciones ESRB. El análisis permitió:
+Utilizando datos históricos de ventas, reseñas y plataformas, el análisis permite predecir qué títulos y consolas tienen mayor potencial de rentabilidad basándose en el comportamiento del mercado y segmentación regional.
 
-Determinar plataformas líderes y emergentes, evaluando su desempeño a lo largo del tiempo.
+## 🎯 Objetivos Estratégicos
+* **Análisis de Ciclo de Vida:** Determinar el tiempo de vigencia de las consolas y detectar el surgimiento de nuevas plataformas líderes.
+* **Correlación de Factores:** Evaluar el impacto real de las críticas profesionales y de usuarios en el éxito comercial de los juegos.
+* **Perfilamiento Regional (NA, EU, JP):** Identificar diferencias drásticas en los gustos y hábitos de consumo entre Norteamérica, Europa y Japón.
+* **Validación Estadística:** Comprobar mediante pruebas de hipótesis si existen diferencias significativas en la percepción de los usuarios según la plataforma y el género.
 
-Explorar la relación entre reseñas y ventas, mediante análisis de correlación y visualización de datos.
+## 🛠️ Herramientas y Metodologías
+* **Lenguaje:** Python 3.x
+* **Librerías principales:**
+    * `Pandas` & `NumPy`: Procesamiento y limpieza de datos (manejo de valores ausentes, tipos de datos y cálculos de ventas totales).
+    * `Matplotlib` & `Seaborn`: Creación de visualizaciones avanzadas (diagramas de caja, gráficos de dispersión y comparativas regionales).
+    * `SciPy (stats)`: Ejecución de pruebas de hipótesis estadísticas (T-test).
+* **Técnicas de Análisis:** EDA (Análisis Exploratorio de Datos), Análisis de Correlación y Pruebas de Hipótesis.
 
-Identificar los géneros más rentables y su impacto en las ventas globales.
+## 📊 Hallazgos Clave
+* **Estrategia por Región:** Se descubrió que el mercado japonés tiene una preferencia única por las consolas portátiles (3DS), mientras que en Occidente (NA/EU) dominan las consolas de sobremesa como PS4 y Xbox One.
+* **Impacto de la Crítica:** Existe una correlación positiva moderada entre la puntuación de los críticos y las ventas, siendo una métrica más fiable que la puntuación de los usuarios.
+* **Géneros Rentables:** El análisis identificó que, aunque el volumen de juegos es alto en ciertos géneros, los de Acción y Shooter lideran en ingresos en mercados específicos.
 
-Crear perfiles de usuario por región, evaluando diferencias en plataformas, géneros y calificaciones.
+## 🏁 Conclusiones de Negocio
+El proyecto finaliza con una recomendación estratégica para la inversión publicitaria de 2017, sugiriendo priorizar plataformas en crecimiento y adaptar el catálogo de productos según la región geográfica para maximizar el retorno de inversión (ROI).
 
-Realizar pruebas de hipótesis sobre calificaciones de usuarios por plataforma y género, aplicando criterios estadísticos adecuados.
-
-El proyecto integra limpieza, preprocesamiento, análisis exploratorio, visualización de datos y pruebas estadísticas, demostrando habilidades en manipulación de datos, análisis cuantitativo y generación de insights accionables para la toma de decisiones en la industria de videojuegos.
